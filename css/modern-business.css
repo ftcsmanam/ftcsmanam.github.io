@@ -4,11 +4,17 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
-body {
-    padding-top: 56px;
+.telugu {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 125%;
+    /* font-weight: bold; */
 }
 
-
+.teluguH4 {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 175%;
+    font-weight: bold;
+}
 /* Set a background image by replacing the URL below */
 
 
@@ -66,15 +72,19 @@ header img {
     padding-top: 56px;
 } */
 
-.carousel-item {
-    height: 65vh;
-    min-height: 300px;
+.small-image {
+    min-height: 300px; 
+} 
+
+/* .carousel-item {
+    height: 40vh;
+    min-height: 350px; 
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 .sponsor-item {
     /* height: 65vh; */
@@ -82,7 +92,8 @@ header img {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
 }
 
 .jumbotron {
@@ -101,6 +112,10 @@ header img {
     -o-background-size: cover;
 }
 
+.bg-yellow {
+    background-color: lightyellow;
+}
+
 .card {
     background-color: lightyellow;
 }
@@ -110,6 +125,29 @@ header img {
     color: white
 }
 
+.font-size-lg { 
+    font-size: 1.5rem; 
+}
+
+.card-hover {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active {
+    text-decoration: underline solid lightyellow 45%;
+}
 
 /* dl {
     border: 3px double #ccc;
