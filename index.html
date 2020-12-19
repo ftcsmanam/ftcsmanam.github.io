@@ -97,6 +97,11 @@
 
     <!-- Page Content -->
     <section class="py-2" id="homepage-content">
+        <script>
+            if (window.location.hash && window.location.hash !== "#index") {
+                $("#homepage-content").hide();
+            }
+        </script>
         <div class="container">
             <!-- <h1 class="my-4">Welcome to Manam!</h1> -->
             <div class="row">
@@ -380,6 +385,8 @@
             //    loadPage("about", e);
             // });
 
+            loadPage(window.location.hash);
+            
             $(window).on("hashchange", function(e) {
                 loadPage(window.location.hash, e);
             });
@@ -397,7 +404,6 @@
         }
 
         function loadPage(hash, e) {
-            console.log(`loadPage hash=${hash} e=${e}`);
             //e.preventDefault();
             if ($(".navbar-toggler").is(":visible")) {
                 //$(".navbar-toggler").click();
@@ -422,6 +428,17 @@
                 $("#main-content").show();
                 $("#homepage-content").hide();
                 window.scrollTo(0, 0);
+
+                $.each($("iframe"), function(i) {
+                    let dataSrc = $(this).data("src");
+                    let src = $(this).attr("src");
+                    if (dataSrc && !src) {
+                        $(this).attr("src", dataSrc);
+                    }
+                })
+            })
+            .fail(function() {
+                window.location.hash = '#index';
             });
         }
 
