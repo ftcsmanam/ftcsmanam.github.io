@@ -428,6 +428,14 @@
                 $("#main-content").show();
                 $("#homepage-content").hide();
                 window.scrollTo(0, 0);
+
+                $.each($("iframe"), function(i) {
+                    let dataSrc = $(this).data("src");
+                    let src = $(this).attr("src");
+                    if (dataSrc && !src) {
+                        $(this).attr("src", dataSrc);
+                    }
+                })
             })
             .fail(function() {
                 window.location.hash = '#index';
