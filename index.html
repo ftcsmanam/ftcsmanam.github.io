@@ -441,8 +441,8 @@
                 $("#main-content").hide();
                 $("#homepage-content").show();
                 setActiveLink("#nav-index");
-                // ga('set', 'page', '/index');
-                // ga('send', 'pageview');
+                document.title = "FTCS Manam Home";
+                gtag('config', 'G-CSW7DM9QTR', {'page_path': '/index'});
                 window.scrollTo(0, 0);
                 return;
             }
@@ -456,8 +456,8 @@
                 $("#main-content").show();
                 $("#homepage-content").hide();
                 window.scrollTo(0, 0);
-                // ga('set', 'page', '/' + page);
-                // ga('send', 'pageview');
+                document.title = "FTCS Manam " + page;
+                gtag('config', 'G-CSW7DM9QTR', {'page_path': '/' + page});
                 $.each($("iframe"), function (i) {
                     let dataSrc = $(this).data("src");
                     let src = $(this).attr("src");
