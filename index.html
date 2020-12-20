@@ -441,8 +441,8 @@
                 $("#main-content").hide();
                 $("#homepage-content").show();
                 setActiveLink("#nav-index");
-                ga('set', 'page', '/index');
-                ga('send', 'pageview');
+                // ga('set', 'page', '/index');
+                // ga('send', 'pageview');
                 window.scrollTo(0, 0);
                 return;
             }
@@ -456,8 +456,8 @@
                 $("#main-content").show();
                 $("#homepage-content").hide();
                 window.scrollTo(0, 0);
-                ga('set', 'page', '/' + page);
-                ga('send', 'pageview');
+                // ga('set', 'page', '/' + page);
+                // ga('send', 'pageview');
                 $.each($("iframe"), function (i) {
                     let dataSrc = $(this).data("src");
                     let src = $(this).attr("src");
