@@ -29,10 +29,6 @@
 
     <!-- Custom styles for this template -->
     <link href="css/manam.css" rel="stylesheet">
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -116,7 +112,12 @@
     <section class="py-2" id="homepage-content">
         <script>
             if (window.location.hash && window.location.hash !== "#index") {
-                $("#homepage-content").hide();
+                // not using jquery here as it is loaded at the end
+                // $("#homepage-content").hide();
+                let elem = document.getElementById("homepage-content");
+                if (elem) {
+                    elem.style.display = "none";
+                }
             }
         </script>
         <div class="container">
@@ -390,6 +391,10 @@
             </p>
         </div>
     </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
         window.onload = function () {
