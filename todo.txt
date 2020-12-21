@@ -100,6 +100,23 @@ https://drive.google.com/uc?export=view&id=1noX_CuA6Q_EGqYeWpFz3T7ZyD9rEg5ca
 https://drive.google.com/uc?export=view&id=
 
 
+Webp format convertor:
+for %i in (*.png) do echo cwebp -q 80 %~i -o  %~ni.webp
+https://css-tricks.com/using-webp-images/
+https://raoulkramer.de/webp-image-and-background-usage-in-web-projects/
+
+CSS Styles classes are applied to img tag. 
+<picture>
+    <source srcset="assets/images/ftcslogo-manam-sm.webp" type="image/webp">
+    <source srcset="assets/images/ftcslogo-manam-sm.png">
+    <img src="assets/images/ftcslogo-manam-sm.png" style="width:32px;height:32px; padding: 0;"
+    alt="FTCS-Manam">
+</picture>
+
+Add `rel="noopener"` or `rel="noreferrer"` to any external links to improve performance and prevent security vulnerabilities. Learn more.
+
+
+
 <div id="carousel1" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="60000">
