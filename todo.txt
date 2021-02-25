@@ -1,3 +1,13 @@
+2/24:
+-----
+- Upcoming events: march fitness, ugadi, annamacharya
+- Bhadrachala - Video add in events
+- Health talk - Events <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Flsangavarapu%2Fvideos%2F4131321516960409%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+- Aditya Hrudayam - Radha Sapthi - Events
+- Sankranti Event video
+- Banner images
+
+
 New:
 - body-bg - reduce width so images show up completely (source in google slides admin@ftcsmanam.org)
 - Remove sponsors
@@ -102,6 +112,8 @@ https://drive.google.com/uc?export=view&id=
 
 Webp format convertor:
 for %i in (*.png) do echo cwebp -q 80 %~i -o  %~ni.webp
+..\..\cwebp -q 80 annamayya-1.png -o annamayya-1.webp
+
 https://css-tricks.com/using-webp-images/
 https://raoulkramer.de/webp-image-and-background-usage-in-web-projects/
 
