@@ -213,6 +213,115 @@ Paypal: Donate button:
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
+Sample: Upcoming events:
+<div class="card h-100">
+                        <h4 class="card-header">Upcoming Events</h4>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card mb-2 shadow-lg">
+                                        <div class="card-body">
+                                            <h5>
+                                                Watch this space for details on upcoming summer programs for Kids!
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card mb-2 shadow-lg">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div id="carousel-ugadi" class="carousel slide" data-ride="carousel" data-interval="3500">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <picture>
+                                                                    <source srcset="assets/images/events/2021/ugadi-2021-flyer1.webp" type="image/webp">
+                                                                    <img class="img-fluid rounded" src="assets/images/events/2021/ugadi-2021-flyer1.png" alt="Ugadi Flyer">
+                                                                </picture>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <picture>
+                                                                    <source srcset="assets/images/events/2021/ugadi-2021-flyer2.webp" type="image/webp">
+                                                                        <img class="img-fluid rounded" src="assets/images/events/2021/ugadi-2021-flyer2.png" alt="Ugadi Flyer Parvati Kalyanam">
+                                                                </picture>
+                                                            </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carousel-ugadi" role="button" data-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#carousel-ugadi" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4 class="card-title">Ugadi Virtual Event</h4>
+                                                    <p class="telugu">మన తెలుగు కళలతో మన తెలుగు ఉగాది ఉత్సవాలకు అందరికీ ఇదే మా ఆహ్వానం 
+                                                        </p>
+                                                    <p>Please note only limited spots available for the talent show.</p>
+                                                    <h5>Saturday April 17th 2021, 5:00pm</h5>
+                                                    <p>All are welcome to attend. Sign up is required only for performers.</p>
+                                                    <a href="https://forms.gle/qQ5WsDjXhnsZ7ix6A" target="_blank" rel="noopener"
+                                                        class="btn btn-primary">Sign up!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card mb-2 shadow-lg">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div id="carousel-annamayya" class="carousel slide" data-ride="carousel" data-interval="4000">
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <picture>
+                                                                    <source srcset="assets/images/events/2021/annamayya.webp" type="image/webp">
+                                                                    <img class="img-fluid rounded" src="assets/images/events/2021/annamayya.png" alt="Vaggeyakara Utsavam">
+                                                                </picture>
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <picture>
+                                                                    <source srcset="assets/images/events/2021/annamayya-1.webp" type="image/webp">
+                                                                        <img class="img-fluid rounded" src="assets/images/events/2021/annamayya-1.png" alt="Vaggeyakara Utsavam">
+                                                                </picture>
+                                                            </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carousel-annamayya" role="button" data-slide="prev">
+                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next" href="#carousel-annamayya" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h4 class="card-title">Sri Tāllapāka Annamācārya Vāggeyakāra Utsavaṃ</h4>
+                                                    <p>We invite all enthusiastic singers and classical dancers (kids and adults) to sing and dance for 
+                                                        Sri Tāllapāka Annamācārya keertanas which will be held via zoom. 
+                                                        </p>
+                                                    <h5>Saturday May 29th 2021, 5:00pm</h5>
+                                                    <p>All are welcome to attend. Sign up is required only for performers.</p>
+                                                    <a href="https://forms.gle/fX6WzJUxto6PJeeQ9" target="_blank" rel="noopener"
+                                                        class="btn btn-primary">Sign up!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
 
 -----
 older
