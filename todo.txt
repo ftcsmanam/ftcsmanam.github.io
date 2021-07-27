@@ -117,6 +117,10 @@ for %i in (*.png) do echo cwebp -q 80 %~i -o  %~ni.webp
 https://css-tricks.com/using-webp-images/
 https://raoulkramer.de/webp-image-and-background-usage-in-web-projects/
 
+Simple web server for local testing:
+npm install --global http-server
+and then in the directory, just run http-server
+
 CSS Styles classes are applied to img tag. 
 <picture>
     <source srcset="assets/images/ftcslogo-manam-sm.webp" type="image/webp">
